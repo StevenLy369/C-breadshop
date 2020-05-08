@@ -6,7 +6,7 @@ namespace Poptarts
     
         private int _price;
 
-        private int _pastry;
+        // private int _pastry;
 
 
         public Pastry(int price, int pastryAmount)
@@ -36,16 +36,10 @@ namespace Poptarts
 
         public int SetPastryTotal(int pasteries)
         {
-            if( _pastryAmount == 1)
-            {
-               return _price = 2;
-            } else if (_pastryAmount == 3)
-            {
-               return _price = 5;
-            }else{
-                return (_price = _pastryAmount * 2);
-            }
-        }
+
+            return _price = ((_pastryAmount * 2) - (_pastryAmount / 3   ));
+     
+         }
 
     }
 }

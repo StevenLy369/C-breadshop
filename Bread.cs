@@ -1,3 +1,4 @@
+
 namespace Loaf
 {
     public class Bread
@@ -24,16 +25,9 @@ namespace Loaf
 
         public int SetBreadTotal(int breads)
         {
-            if(_breadAmount == 2)
-            {
-                return _breadPrice = 5;
-            }else if (_breadAmount == 1)
-            {
-                return _breadPrice = 5;
-            }else
-            {
-                return _breadPrice = ( (_breadAmount * 5) - 5 );
-            }
+            return _breadPrice = ((_breadAmount * 5) - (_breadAmount / 2 * 5 ));
+
+          
         }
     }
 }
