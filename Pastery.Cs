@@ -1,22 +1,30 @@
-namespace Poptarts
+namespace Bakery
 {
-    public class Pastery
+    public class Pastry
     {
-        private int _pasteryAmount;
-        private int _bread;
-        private int _Price;
+        private int _pastryAmount;
+    
+        private int _price;
+
+        private int _pastry;
 
 
-        public Pastery(int price, int pastery)
+        public Pastry(int price, int pastryAmount)
         {
-            _Price = price;
-            _pastery = 0;
+            _price = price;
+            _pastryAmount = 0;
+
 
         }
 
         public int GetPrice()
         {
-            return _Price;
+            return _price;
+        }
+
+        public int GetpastryAmount()
+        {
+            return _pastryAmount;
         }
 
         // public int GetPasteryPrice()
@@ -24,16 +32,16 @@ namespace Poptarts
         //     return _pastery;
         // }
 
-        public int SetPasteryPrice()
+        public int SetPastryPrice()
         {
-            if( _pasteryAmount == 1)
+            if( _pastryAmount == 1)
             {
-               return _Price = 2;
-            } else if (_pasteryAmount == 3)
+               return _price = 2;
+            } else if (_pastryAmount == 3)
             {
-               return _Price = 5;
+               return _price = 5;
             }else{
-                return _pasteryAmount * 2;
+                return _pastryAmount * 2;
             }
         }
 
