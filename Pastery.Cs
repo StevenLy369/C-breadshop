@@ -32,10 +32,7 @@ namespace Poptarts
             return _pastryAmount;
         }
 
-        // public int GetPasteryPrice()
-        // {
-        //     return _pastery;
-        // }
+       
 
         public int SetPastryTotal(int pasteries)
         {
