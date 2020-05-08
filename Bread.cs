@@ -20,5 +20,10 @@ namespace Loaf
         {
             _breadAmount = loafAmount;
         }
+
+        public int SetBreadTotal(int breads)
+        {
+            if(_breadsAmount == 2)
+        }
     }
 }

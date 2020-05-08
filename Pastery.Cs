@@ -37,7 +37,7 @@ namespace Poptarts
         //     return _pastery;
         // }
 
-        public int SetPastryPrice(int pasteries)
+        public int SetPastryTotal(int pasteries)
         {
             if( _pastryAmount == 1)
             {

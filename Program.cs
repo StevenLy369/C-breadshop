@@ -18,7 +18,7 @@ namespace BakeryShop
 
            int pasteries = int.Parse(amount);
             pastryOrder.SetPastry(pasteries);
-            pastryOrder.SetPastryPrice(pasteries);
+            pastryOrder.SetPastryTotal(pasteries);
             Console.WriteLine("Your Total is " + pastryOrder.GetPrice());
 
 
