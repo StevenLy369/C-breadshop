@@ -46,7 +46,7 @@ namespace Poptarts
             {
                return _price = 5;
             }else{
-                return _pastryAmount * 2;
+                return (_price = _pastryAmount * 2);
             }
         }
 
