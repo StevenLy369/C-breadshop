@@ -1,4 +1,3 @@
-
 namespace Loaf
 {
     public class Bread
