@@ -20,7 +20,7 @@ namespace BakeryShop
             int pasteries = int.Parse(amount);
             pastryOrder.SetPastry(pasteries);
             pastryOrder.SetPastryTotal(pasteries);
-            // Console.WriteLine("Your Total is " + pastryOrder.GetPrice());
+            
 
 
 
@@ -29,7 +29,7 @@ namespace BakeryShop
            int loafs = int.Parse(breadAmount);
            breadOrder.SetBread(loafs);
            breadOrder.SetBreadTotal(loafs);
-           Console.WriteLine("Your Total for bread is : $ " + breadOrder.GetBreadPrice() + pastryOrder.GetPrice() );
+           Console.WriteLine("Your Total for bread is : $ " + breadOrder.GetBreadPrice() +" And your total for pasteries is: $ " + pastryOrder.GetPrice() );
 
 
           
