@@ -1,4 +1,4 @@
-namespace Bakery
+namespace Poptarts
 {
     public class Pastry
     {
@@ -12,7 +12,7 @@ namespace Bakery
         public Pastry(int price, int pastryAmount)
         {
             _price = price;
-            _pastryAmount = 0;
+            _pastryAmount = pastryAmount;
 
 
         }
@@ -20,6 +20,11 @@ namespace Bakery
         public int GetPrice()
         {
             return _price;
+        }
+
+        public void SetPastry(int amount)
+        {
+            _pastryAmount = amount;
         }
 
         public int GetpastryAmount()
@@ -32,7 +37,7 @@ namespace Bakery
         //     return _pastery;
         // }
 
-        public int SetPastryPrice()
+        public int SetPastryPrice(int pasteries)
         {
             if( _pastryAmount == 1)
             {
