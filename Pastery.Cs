@@ -2,14 +2,12 @@ namespace Poptarts
 {
     public class Pastry
     {
-        private int _pastryAmount;
+        private int _pastryAmount{get;set;}
     
-        private int _price;
+        private int _price{get;set;}
 
         public Pastry(int price, int pastryAmount)
         {
-            _price = price;
-            _pastryAmount = pastryAmount;
 
         }
 

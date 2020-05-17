@@ -2,14 +2,13 @@ namespace Loaf
 {
     public class Bread
     {
-        private int _breadAmount;
+        private int _breadAmount {get;set;}
 
-        private int _breadPrice;
+        private int _breadPrice{get;set;}
         public Bread(int breadPrice, int breadAmount) 
         {
             
-            _breadPrice = breadPrice;
-            _breadAmount = breadAmount;
+            
         }
 
         public int GetBreadPrice()
