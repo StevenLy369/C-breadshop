@@ -2,34 +2,20 @@ namespace Poptarts
 {
     public class Pastry
     {
-        private int _pastryAmount{get;set;}
+        public int PastryAmount{get;set;}
     
-        private int _price{get;set;}
+        public int Price{get;set;}
 
-        public Pastry(int price, int pastryAmount)
+        public Pastry(int price, int pastryamount)
         {
-
+            PastryAmount = pastryamount;
+            Price = price;
         }
 
-        public int GetPrice()
-        {
-            return _price;
-        }
-
-        public void SetPastry(int amount)
-        {
-            _pastryAmount = amount;
-        }
-
-        public int GetpastryAmount()
-        {
-            return _pastryAmount;
-        }
-
-        public int SetPastryTotal(int pasteries)
+        public int PastryTotal(int pastryAmount)
         {
 
-            return _price = ((_pastryAmount * 2) - (_pastryAmount / 3 ));
+            return Price = ((pastryAmount* 2) - (pastryAmount / 3 ));
      
          }
 

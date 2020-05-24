@@ -2,30 +2,28 @@ namespace Loaf
 {
     public class Bread
     {
-        private int _breadAmount {get;set;}
+        public int BreadAmount {get;set;}
 
-        private int _breadPrice{get;set;}
+        public int BreadPrice{get;set;}
         public Bread(int breadPrice, int breadAmount) 
         {
+            BreadPrice = breadPrice;
+            BreadAmount = breadAmount;
             
-            
         }
-
-        public int GetBreadPrice()
+        public int BreadTotal(int breadAmount)
         {
-            return _breadPrice;
-        }
-
-        public void SetBread(int loafAmount)
-        {
-            _breadAmount = loafAmount;
-        }
-
-        public int SetBreadTotal(int breads)
-        {
-            return _breadPrice = ((_breadAmount * 5) - (_breadAmount / 2 * 5 ));
-
+            if (BreadAmount <= 2)
+            {
+                return BreadPrice = breadAmount * 5;
+            }
+            else
+            {
+                return BreadPrice = ((breadAmount * 5) - (breadAmount / 2 * 5 ));
+            }
           
         }
     }
 }
+
+
