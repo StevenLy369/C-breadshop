@@ -1,12 +1,12 @@
- # __
+ # Breadshop
 
-#### _Bread Store _
+#### Bread Store 
 
-#### By _StevenL - May 8, 2020_
+#### By StevenL - May 8, 2020_
 
 ## Description
 
-### _An simple program to buy bread and pasteries_
+### An simple program to buy bread and pasteries
 
 ## Setup/Installation Requirements
 
