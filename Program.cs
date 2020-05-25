@@ -13,12 +13,6 @@ namespace BakeryShop
         public static void Main()
         {
 
-            Pastry pastryOrder = new Pastry(0, 2);
-            Bread breadOrder = new Bread(0, 5);
-            List<Bread> Bread = new List<Bread>() { };
-            List<Pastry> Pastry = new List<Pastry>() { };
-
-
             Console.WriteLine("How many Pasteries");
             string amount = Console.ReadLine();
             int pastryAmount = int.Parse(amount);
@@ -28,6 +22,14 @@ namespace BakeryShop
             Console.WriteLine("How many loafs of bread");
             string bread = Console.ReadLine();
             int breadAmount = int.Parse(bread);
+
+            Pastry pastryOrder = new Pastry(0, 2);
+            Bread breadOrder = new Bread(0, 5);
+
+            List<Bread> Bread = new List<Bread>() { };
+            List<Pastry> Pastry = new List<Pastry>() { };
+
+        
 
 
 
